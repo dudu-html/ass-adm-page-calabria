@@ -1,0 +1,265 @@
+body {
+    width: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+
+	font-family: 'Montserrat', sans-serif;	
+}
+
+main {
+	margin: 0 15% 0 15%;
+}
+
+header {
+	width: 100%;
+	display: inline-flex;
+	opacity: 75%;
+	transition: .5s;
+	padding: 2%;
+	margin: 0 0 0 22%;
+}
+
+header:hover {
+	opacity: 100%;
+}
+
+nav {
+	width: 100%;
+	margin: 1% 0 0 0;
+	display: inline;
+	
+}
+
+footer {
+	width: 100%;
+	padding: 2%;
+	background: black;
+	color: white;
+	opacity: 95%;
+	transition: .9s;
+	margin: 4% 0 0 0;
+}
+		footer:hover {
+			opacity: 100%;
+		}
+
+hr {
+	width: 0;
+	margin: 0 2% 0 2%;
+}
+
+footer a {
+	margin: 0 10% 0 0 ;
+	transition: .3s;
+}
+	footer a:hover {
+		opacity: 60%;
+	}
+
+.copyright {
+	margin: 1% 0 0 0;
+	text-align: center;
+	opacity: 90%;
+}
+.footer-div {
+	display: flex;
+}
+
+.titulo-h {
+	width: 38%;
+	display: inline;
+}
+
+.logo-header {
+	width: 100px;
+	margin: 0 2% 0 2%;
+}
+
+#botao {
+	display: inline-flex;
+	text-align: center;
+	padding: 2%;
+	transition: .8s;
+	text-decoration: none;
+	color: black;
+	margin: 0 0 2% 0;
+	font-weight: bold;
+	border-radius: 2% 2% 20% 2%;
+}
+	#botao:hover {
+		background: #d9d9d9;
+		color: black;
+		box-shadow: 3px 3px 3px 1px #696969;
+	}
+		#botao:active {
+			transform: scale(0.9);
+			opacity: 20%;
+			transition: .1s;
+		}
+
+#título-header {
+	margin: 8% 2% 0 11%;
+	display: flex;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+#mailto {
+	color: white;
+}
+
+.footer-div {
+	margin: 0 0 0 16%;
+}
+
+.footer1 a {
+	color: white;
+}
+
+/*Início*/
+
+
+
+
+.contatos {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	background: gainsboro;
+    text-align: center;
+	width: 33%;
+	margin: 0 0.1%;
+	padding: 61px 30px;
+	margin-top: 2px;
+
+	height: 33%;
+	transition: .4s;
+}
+
+.contatos h2  {
+	font-family: 'Oswald', sans-serif;
+}
+
+.contatos p {
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.loc {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	background: gainsboro;
+	text-align: center;
+	width: 33%;
+	margin: 0 0.1%;
+	padding: 55px 30px;
+	margin-top: 2px;
+
+	height: 35%;
+	transition: .4s;
+}
+
+.loc h2 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.loc p {
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.eml {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	background: gainsboro;
+	text-align: center;
+	width: 33%;
+	margin: 0 0.1%;
+	padding: 73px 30px;
+	margin-top: 2px;
+
+	height: 21%;
+	transition: .4s;
+}
+
+.eml h2 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.eml p {
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.tel {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+    background: gainsboro;
+	text-align: center;
+	width: 33%;
+	margin: 0 0.1%;
+	padding: 55px 30px;
+	margin-top: 2px;
+	
+	height: 27%;
+	transition: .4s;		
+}
+
+
+.tel h2 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.tel p {
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.mapa {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.container {
+	margin: 5% 0 5% 0;
+	display: flex;
+}
+
+#mailto-ctt {
+	font-size: 13px;
+	color: black;
+}
+
+#tel-card {
+	color: black;
+}
+
+.tel:hover {
+	opacity: 60%;
+}
+
+.eml:hover {
+	opacity: 60%;
+}
+
+.loc:hover {
+	opacity: 60%;
+}
+.contatos:hover {
+	opacity: 60%;
+}
+
+.titulo img, h1 {
+	display: inline;
+	margin: 0 0 0 25%;
+}
+
+.titulo h1 {
+	margin: 0 0 0 1%;
+	font-size: 30px;
+} 
+
